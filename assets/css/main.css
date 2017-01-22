@@ -1,0 +1,122 @@
+/*
+Theme Name: MNKNJY1
+Theme URI: http://wordpress.org/themes/mnknjy
+Author: Brionna White
+Author URI: www.brionna.github.io
+Description: Premium leisurewear line made from organic fabrics. We strive for sustainable designs & ethical practices. Handcrafted in the USA. This is comfort.
+Version: 1.0
+Tags: fashion, mnknjy, release, 2017, clothing line, loungewear
+Text Domain: MNKNJY
+*/
+
+
+body {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+nav  {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+}
+.navigation {
+	margin: 40px 0px 40px 0px;
+	font-size: 13px;
+}
+.me {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+.becca-name {
+	text-align: left;
+	padding-left: 60px;
+	font-weight: 100;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 34px;
+	margin-top: 50px;
+	text-align: center;
+	color: #666 !important;
+}
+.becca-text {
+	font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif!important;
+	color: #000;
+	box-sizing: border-box;
+	margin-bottom: 8px;
+	margin-top: 40px;
+	line-height: 26px;
+}
+.cust-heading {
+	font-size: 22px;
+	text-transform: lowercase;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: #666;
+	font-weight: 100;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.top-margin-100 {
+	margin-top: 100px;
+}
+a {
+	color:black;
+	text-decoration: none;
+	display: block;
+}
+a:hover img {
+	border: none !important;
+	display: block;
+}
+ul {
+	list-style-type: none;
+
+}
+img {
+	max-width: 100%;
+	/*zoom:100%;*/
+}
+
+/*.icon {
+	color:#d4d4d4;
+}*/
+@keyframes slidy {
+ 	0% { left: 0%; }
+ 	20% { left: 0%; }
+ 	25% { left: -100%; }
+ 	45% { left: -100%; }
+ 	50% { left: -200%; }
+ 	70% { left: -200%; }
+ 	75% { left: -300%; }
+ 	95% { left: -300%; }
+ 	100% { left: -400%; }
+}
+body { margin: 0; }
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+	position: relative;
+	width: 500%;
+ 	margin: 0;
+	left: 0;
+	text-align: left;
+  font-size: 0;
+	animation: 15s slidy infinite;
+ }
+.rotateimg180 {
+	-webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+ul.icons {
+		cursor: default;
+}
+ul.icons li {
+	display: inline-block;
+}
+ul.icons a {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	border: 0;
+}
